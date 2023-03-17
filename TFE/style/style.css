@@ -1,0 +1,71 @@
+body{
+	margin: 0 auto;
+	width: 500px;
+	background-color: #272727;
+	color: white;
+	font-size: 20px;
+}
+
+/*Menu*/
+nav{
+	min-width: 50%;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+	color:#B8B8B8;
+	width:42px ;
+	height:24px ;
+}
+a:active {
+	color: red;
+}
+
+/*Formulaire*/
+form{
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #131313;
+	color: white;
+	margin: 0 auto;
+	width: 900px;
+	padding: 1em;
+	font-size: 20px;
+}
+div .form-inscr label {
+	display: inline-block;
+	width: 90px;
+	text-align: top left;
+}
+input, textarea {
+	box-sizing: border-box;
+	width: 500px;
+	text-align: left;
+}
+input{
+	margin-bottom: 3em;
+}
+textarea{
+	vertical-align: top;
+	height: 300px;
+}
+button {
+	margin-left: 90px;
+}
+
+/*Classes*/
+
+.menu{
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #000000;
+	color: #B8B8B8;
+	padding: 1rem;
+	margin-left: 50px;
+	border-radius: 2rem;
+}
+.menua{
+	color:#6D6D6D;
+}
