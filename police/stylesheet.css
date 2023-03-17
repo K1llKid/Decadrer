@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'ITC Avant Garde Std Bk';
+    src: url('ITCAvantGardeStd-BkObl.eot');
+    src: local('ITC Avant Garde Gothic Std Book Oblique'), local('ITCAvantGardeStd-BkObl'),
+        url('ITCAvantGardeStd-BkObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BkObl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-XLtCnObl.eot');
+    src: local('ITC Avant Garde Gothic Std Extra Light Condensed Oblique'), local('ITCAvantGardeStd-XLtCnObl'),
+        url('ITCAvantGardeStd-XLtCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtCnObl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
+    src: url('ITCAvantGardeStd-BoldCn.eot');
+    src: local('ITC Avant Garde Gothic Std Bold Condensed'), local('ITCAvantGardeStd-BoldCn'),
+        url('ITCAvantGardeStd-BoldCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldCn.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldCn.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Bk';
+    src: url('ITCAvantGardeStd-DemiObl.eot');
+    src: local('ITC Avant Garde Gothic Std Demi Oblique'), local('ITCAvantGardeStd-DemiObl'),
+        url('ITCAvantGardeStd-DemiObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiObl.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiObl.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std XLt';
+    src: url('ITCAvantGardeStd-XLtObl.eot');
+    src: local('ITC Avant Garde Gothic Std Extra Light Oblique'), local('ITCAvantGardeStd-XLtObl'),
+        url('ITCAvantGardeStd-XLtObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtObl.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtObl.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std XLt';
+    src: url('ITCAvantGardeStd-XLt.eot');
+    src: local('ITC Avant Garde Gothic Std Extra Light'), local('ITCAvantGardeStd-XLt'),
+        url('ITCAvantGardeStd-XLt.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLt.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLt.woff') format('woff'),
+        url('ITCAvantGardeStd-XLt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Md';
+    src: url('ITCAvantGardeStd-BoldObl.eot');
+    src: local('ITC Avant Garde Gothic Std Bold Oblique'), local('ITCAvantGardeStd-BoldObl'),
+        url('ITCAvantGardeStd-BoldObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium Condensed';
+    src: url('ITCAvantGardeStd-MdCn.eot');
+    src: local('ITC Avant Garde Gothic Std Medium Condensed'), local('ITCAvantGardeStd-MdCn'),
+        url('ITCAvantGardeStd-MdCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdCn.woff') format('woff'),
+        url('ITCAvantGardeStd-MdCn.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light Condensed';
+    src: url('ITCAvantGardeStd-XLtCn.eot');
+    src: local('ITC Avant Garde Gothic Std Extra Light Condensed'), local('ITCAvantGardeStd-XLtCn'),
+        url('ITCAvantGardeStd-XLtCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtCn.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtCn.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+    src: url('ITCAvantGardeStd-DemiCn.eot');
+    src: local('ITC Avant Garde Gothic Std Demi Condensed'), local('ITCAvantGardeStd-DemiCn'),
+        url('ITCAvantGardeStd-DemiCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiCn.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BkCnObl.eot');
+    src: local('ITC Avant Garde Gothic Std Book Condensed Oblique'), local('ITCAvantGardeStd-BkCnObl'),
+        url('ITCAvantGardeStd-BkCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BkCnObl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BoldCnObl.eot');
+    src: local('ITC Avant Garde Gothic Std Bold Condensed Oblique'), local('ITCAvantGardeStd-BoldCnObl'),
+        url('ITCAvantGardeStd-BoldCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldCnObl.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Md';
+    src: url('ITCAvantGardeStd-Md.eot');
+    src: local('ITC Avant Garde Gothic Std Medium'), local('ITCAvantGardeStd-Md'),
+        url('ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Md.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Md.woff') format('woff'),
+        url('ITCAvantGardeStd-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Bk';
+    src: url('ITCAvantGardeStd-Demi.eot');
+    src: local('ITC Avant Garde Gothic Std Demi'), local('ITCAvantGardeStd-Demi'),
+        url('ITCAvantGardeStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Demi.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Demi.woff') format('woff'),
+        url('ITCAvantGardeStd-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book Condensed';
+    src: url('ITCAvantGardeStd-BkCn.eot');
+    src: local('ITC Avant Garde Gothic Std Book Condensed'), local('ITCAvantGardeStd-BkCn'),
+        url('ITCAvantGardeStd-BkCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkCn.woff') format('woff'),
+        url('ITCAvantGardeStd-BkCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-DemiCnObl.eot');
+    src: local('ITC Avant Garde Gothic Std Demi Condensed Oblique'), local('ITCAvantGardeStd-DemiCnObl'),
+        url('ITCAvantGardeStd-DemiCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiCnObl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-MdCnObl.eot');
+    src: local('ITC Avant Garde Gothic Std Medium Condensed Oblique'), local('ITCAvantGardeStd-MdCnObl'),
+        url('ITCAvantGardeStd-MdCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-MdCnObl.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Md';
+    src: url('ITCAvantGardeStd-MdObl.eot');
+    src: local('ITC Avant Garde Gothic Std Medium Oblique'), local('ITCAvantGardeStd-MdObl'),
+        url('ITCAvantGardeStd-MdObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdObl.woff') format('woff'),
+        url('ITCAvantGardeStd-MdObl.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Bk';
+    src: url('ITCAvantGardeStd-Bk.eot');
+    src: local('ITC Avant Garde Gothic Std Book'), local('ITCAvantGardeStd-Bk'),
+        url('ITCAvantGardeStd-Bk.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Bk.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Bk.woff') format('woff'),
+        url('ITCAvantGardeStd-Bk.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Std Md';
+    src: url('ITCAvantGardeStd-Bold.eot');
+    src: local('ITC Avant Garde Gothic Std Bold'), local('ITCAvantGardeStd-Bold'),
+        url('ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Bold.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('ITCAvantGardeStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
