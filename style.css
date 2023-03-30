@@ -114,7 +114,6 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
-
 /*Formulaire*/
 form{
   border: 3px solid black;
@@ -151,7 +150,7 @@ label {
  display: inline-block;
  width: 90px;
 }
-.button{
+.button-form{
   position: relative;
   padding: 24px 32px;
   border-radius: 1200px;
@@ -161,7 +160,26 @@ label {
   overflow: hidden;
   cursor: pointer;
 }
-.button:hover{
+.button-form:hover{
   color:#000;
   background-color: white;
+  transition: all 0.3s ease
+}
+/*Boutique*/
+.div-rp{
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.rp-img{
+  width: 450px;
+  height: 450px;
+  
+}
+.button-buy{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
