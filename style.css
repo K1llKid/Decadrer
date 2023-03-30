@@ -1,11 +1,17 @@
 #banner {
 	width: 1300px;
 	height: 300px;
-	margin-left: -10px;
+	margin-left: -12px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+
 }
 .titre{
 	position: absolute;
-	top: 180px;
-	left: 490px;
-	font-size: 100px;
+	top: 200px;
+	left: 460px;
+	font-size: 90px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-weight: bold;
+    font-style: italic;
 }
