@@ -3,26 +3,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'roboto', sans-serif;
   font-weight: 200;
-  font-style: italic;
 } 
 
 #banner {
   width: 1300px;
   height: 300px;
   margin-left: -12px;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 .titre{
   position: absolute;
   top: 200px;
   left: 460px;
   font-size: 90px;
-    font-family: 'ITC Avant Garde Gothic Std';
-    font-weight: bold;
-    font-style: italic;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-weight: bold;
+  font-style: italic;
 }
 nav{
   display: flex;
@@ -150,20 +148,7 @@ textarea{
 button {
   margin-left: 90px;
 }
-
-/*Classes*/
-
-.menu{
-  list-style-type: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  background-color: #000000;
-  color: #B8B8B8;
-  padding: 1rem;
-  margin-left: 50px;
-  border-radius: 2rem;
-}
-.menua{
-  color:#6D6D6D;
+label {
+ display: inline-block;
+ width: 90px;
 }
