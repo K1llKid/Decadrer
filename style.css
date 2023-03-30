@@ -1,0 +1,11 @@
+#banner {
+	width: 1300px;
+	height: 300px;
+	margin-left: -10px;
+}
+.titre{
+	position: absolute;
+	top: 180px;
+	left: 490px;
+	font-size: 100px;
+}
