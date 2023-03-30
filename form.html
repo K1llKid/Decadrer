@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>	
-    <title>Contact</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="fonts/roboto/stylesheet.css" type = "text/css" />
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" href="fonts/roboto/stylesheet.css" type = "text/css" />
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            Décadrer
-        </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="cadres.html">Nos Cadres</a></li>
-            <li><a href="presentation.html">Qui sommes-nous ?</a></li>
-            <li><a class="active" href="form.html">Contact</a></li>
+	<nav class="nav">
+		<div class="logo">
+			Décadré
+		</div>
+		<input type="checkbox" id="click">
+		<label for="click" class="menu-btn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="shop.html">Boutique</a></li>
+			<li><a href="presentation.html">Qui sommes-nous ?</a></li>
+			<li><a href="form.html" class="active" >Contact</a></li>
         </ul>
-    </nav>
+	</nav>
 	<div class="form-inscr">
 		<form action="form.html" method="post">
 			<div>
 				<label for="firstname" >Prénom :</label>
-				<input type="text" id="firstname" name="user_name">
+				<input type="text" id="firstname" name="user_name" required>
 			</div>
 			<div class="user-name">
 				<label for="name" >Nom :</label>
-				<input type="text" id="name" name="user_name">
+				<input type="text" id="name" name="user_name" required>
 			</div>
 			<div>
 				<label for="mail" >Email :</label>
-				<input type="text" id="mail" name="user_mail">
+				<input type="text" id="mail" name="user_mail" pattern=".+@\gmail.com"
+				title="exemple@gmail.com"required>
 			</div>
 
 			<div>
 				<label for="msg" >Votre message :</label>
-				<textarea id="msg" name="mail_content"></textarea> 
+				<textarea id="msg" name="mail_content" required></textarea> 
 			</div>
-			<button type="submit" onclick="alert('Bonjour '+document.getElementById('firstname').value)">Envoyer</button>
+			<button type="submit">Envoyer</button>
 		</form>
 	</div>
 </body>
