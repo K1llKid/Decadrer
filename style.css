@@ -152,3 +152,17 @@ label {
  display: inline-block;
  width: 90px;
 }
+.button{
+  position: relative;
+  padding: 24px 32px;
+  border-radius: 1200px;
+  background-color: transparent;
+  color: #FFF;
+  border: solid 1px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button:hover{
+  color:#000;
+  background-color: white;
+}
