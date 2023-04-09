@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 200;
+} 
+
+#banner {
+  width: 100%;
+  height: 300px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+.titre{
+  position: absolute;
+  top: 200px;
+  left: 460px;
+  font-size: 90px;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*Nav*/
+
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #1b1b1b;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+}
+/*Nav Déroulant*/
+.dropdown-btn{
+  border-radius: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1b1b1b;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;color:black}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Formulaire*/
+form{
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #131313;
+  color: white;
+  margin: 0 auto;
+  width: 25%;
+  padding: 1em;
+  margin-top: 80px;
+  font-size: 0 auto;
+}
+div .form-inscr label {
+  display: inline-block;
+  width: 90px;
+  text-align: top left;
+}
+input, textarea {
+  box-sizing: border-box;
+  width: 400px;
+  text-align: left;
+}
+input{
+  margin-bottom: 3em;
+  border-radius: 5px;
+}
+textarea{
+  vertical-align: top;
+  height: 300px;
+  border-radius: 5px;
+}
+button {
+  margin-left: 90px;
+}
+label {
+  display: inline-block;
+  width: 90px;
+}
+.button-form{
+  position: relative;
+  margin: 10px;
+  padding: 24px 32px;
+  border-radius: 1200px;
+  background-color: transparent;
+  color: #FFF;
+  border: solid 1px black;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button-form:hover{
+  color:#000;
+  background-color: white;
+  transition: all 0.3s ease
+}
+/*Boutique*/
+.produits{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.produit{
+  background: #ffffff;
+  text-align: center;
+  width: 240px;
+  height: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.produit .produit-titre, .produit .produit-prix{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.produit:hover img{
+  scale:  1.1;
+}
+
+.produit:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.produit img {
+  height: 180px;
+  margin: 1rem;
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+.produit a:hover{
+  transform: scale(1.1);
+}
+
+.produit-btn{
+  text-decoration: none ;
+  background-color: #1b1b1b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}

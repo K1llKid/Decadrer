@@ -8,12 +8,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 	<link rel="stylesheet" href="fonts/roboto/stylesheet.css" type = "text/css" />
 	<link rel="shortcut icon" href="imgs/logo.png" />
-
+	
 </head>
 <body>
-	<nav class="nav">
+	<nav>
 		<div class="logo">
-			Décadré
+			Décadrer
 		</div>
 		<input type="checkbox" id="click">
 		<label for="click" class="menu-btn">
@@ -21,34 +21,29 @@
 		</label>
 		<ul>
 			<li><a href="index.html">Accueil</a></li>
-			<li><a href="shop.html">Boutique</a></li>
+			<li class="dropdown"><a class="dropbtn" href="shop.html">Boutique</a>
+				<div class="dropdown-content">
+					<a href="#" class="dropdown-btn">Link 1</a>
+					<a href="#" class="dropdown-btn">Link 2</a>
+					<a href="#" class="dropdown-btn">Link 3</a>
+				</div>
+			</li>
 			<li><a href="presentation.html">Qui sommes-nous ?</a></li>
-			<li><a href="form.html" class="active" >Contact</a></li>
+			<li><a href="form.html" class="active">Contact</a></li>
 			<li><a href="jeu.html">Python</a></li>
 		</ul>
 	</nav>
 	<div class="form-inscr">
 		<form action="form.html" method="post">
-			<div>
-				<label for="firstname" >Prénom :</label>
-				<input type="text" id="firstname" name="user_name" required>
-			</div>
-			<div class="user-name">
-				<label for="name" >Nom :</label>
-				<input type="text" id="name" name="user_name" required>
-			</div>
-			<div>
-				<label for="mail" >Email :</label>
-				<input type="text" id="mail" name="user_mail" pattern=".+@\gmail.com"
-				title="exemple@gmail.com"required>
-			</div>
-
-			<div>
-				<label for="msg" >Votre message :</label>
-				<textarea id="msg" name="mail_content" required></textarea> 
-			</div>
+			<input type="text" id="firstname" name="first_name" required placeholder="Prénom">
+			<input type="text" id="name" name="name" required placeholder="Nom :">
+			<input type="text" id="mail" name="user_mail" pattern=".+@\gmail.com" title="exemple@gmail.com"required placeholder="Adresse mail :">
+			<textarea id="msg" name="mail_content" required placeholder="Votre message"></textarea> 
 			<button type="submit" class="button-form">Envoyer</button>
 		</form>
 	</div>
+	<footer>
+		
+	</footer>
 </body>
 </html>

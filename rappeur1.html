@@ -12,9 +12,9 @@
 	<link rel="shortcut icon" href="imgs/logo.png" />
 </head>
 <body>
-	<nav class="nav">
+	<nav>
 		<div class="logo">
-			Décadré
+			Décadrer
 		</div>
 		<input type="checkbox" id="click">
 		<label for="click" class="menu-btn">
@@ -22,14 +22,21 @@
 		</label>
 		<ul>
 			<li><a href="index.html">Accueil</a></li>
-			<li><a href="shop.html">Boutique</a></li>
-			<li><a href="presentation.html">Qui sommes-nous ?</a></li>
+			<li class="dropdown"><a class="dropbtn" href="shop.html">Boutique</a>
+				<div class="dropdown-content">
+					<a href="#" class="dropdown-btn">Link 1</a>
+					<a href="#" class="dropdown-btn">Link 2</a>
+					<a href="#" class="dropdown-btn">Link 3</a>
+				</div>
+			</li>
+			<li><a href="presentation.html" class="active">Qui sommes-nous ?</a></li>
 			<li><a href="form.html">Contact</a></li>
+			<li><a href="jeu.html">Python</a></li>
 		</ul>
 	</nav>
 	<div class="div-rp">
 		<img src="imgs/damsoun.jpg" class="rp-img">
 	</div>
-	<button onclick="alert(document.getElementById(''))>Button</button>
+	<button onclick="alert(document.getElementById(''))";>Button</button>
 </body>
 </html> 
