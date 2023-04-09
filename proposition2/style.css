@@ -1,0 +1,32 @@
+/*Nav*/
+body {
+  margin: 0;
+}
+
+ul {
+  font-size: 25px ;
+  list-style-type: none;
+  margin-top: 25px;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #131313;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
