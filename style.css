@@ -278,3 +278,7 @@ label {
   cursor: pointer;
   border-radius: 6px;
 }
+.centre{
+  align-items: center;
+  align-content: center;
+}
