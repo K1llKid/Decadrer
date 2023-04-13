@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #wrap {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #444444;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+      }
+      .navbar li {
+        height: auto;
+        width: 135.8px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #444444;
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px solid #ccc9c9;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover {
+        background-color: #444444;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #444444;
+      }
+      .navbar li ul li a {
+        border-left: 1px solid #444444;
+        border-right: 1px solid #444444;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #444444;
+      }
+      .navbar li ul li a:hover {
+        background-color: #a3a1a1;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Créer une Boîte Modale</h2>
+    <div id="wrap">
+      <ul class="navbar">
+        <li>
+          <a href="#">Acceuil</a>
+        </li>
+        <li>
+          <a href="#">Livres</a>
+          <ul>
+            <li><a href="#">Apprendre HTML</a></li>
+            <li><a href="#">Apprendre CSS</a></li>
+            <li><a href="#">Apprendre JavaScript</a></li>
+            <li>
+              <a href="#">Apprendre PHP</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Questionnaires</a>
+          
+        </li>
+        <li>
+          <a href="#">Outils</a>
+          <ul>
+            <li><a href="#">Images géométriques</a></li>
+            <li><a href="#">Pipette de couleur</a></li>
+            <li><a href="#">Générateur de code</a></li>
+            <li><a href="#">Éditeur HTML</a></li>
+            <li>
+              <a href="#">Base 64</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Snnipets</a>
+          <ul>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Angular</a></li>
+            <li>
+              <a href="#">Java</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">String Functions</a>
+          <ul>
+            <li><a href="#">Inverse de chaîne</a></li>
+            <li><a href="#">Encodeur d'URL</a></li>
+            <li><a href="#">Décapant des lignes vides</a></li>
+            <li><a href="#">Compte des mots de chaîne</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

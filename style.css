@@ -11,6 +11,7 @@
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
+
 .titre{
   position: absolute;
   top: 200px;
@@ -22,7 +23,6 @@
 }
 
 /*Nav*/
-
 nav{
   display: flex;
   height: 80px;
@@ -33,48 +33,59 @@ nav{
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
+
+/*Logo dans le nav*/
 nav .logo{
   color: #fff;
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 60px;
 }
+
+/*Organisation Nav*/
 nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
-nav ul li{
-  margin: 0 5px;
-}
+
+/*Style des boutons nav*/
 nav ul li a{
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+  margin: 0 5px;
   padding: 8px 15px;
   border-radius: 5px;
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
+
+/*Animation dans le nav*/
 nav ul li a.active,
 nav ul li a:hover{
   color: #111;
   background: #fff;
 }
+
+/*cache burger*/
 nav .menu-btn i{
-  color: #fff;
-  font-size: 22px;
   cursor: pointer;
   display: none;
 }
+
+/*case pour burger*/
 input[type="checkbox"]{
   display: none;
 }
+
+/*/*Responsive*/
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
   }
 }
+
 @media (max-width: 920px) {
   nav .menu-btn i{
     display: block;
@@ -105,7 +116,6 @@ input[type="checkbox"]{
     margin-left: -100%;
     display: block;
     font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   #click:checked ~ ul li a{
     margin-left: 0px;
@@ -116,57 +126,35 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
+
 /*Nav Déroulant*/
-.dropdown-btn{
-  border-radius: 0;
-}
-ul {
-  list-style-type: none;
+
+.dropdown-menu ul, .dropdown-menu li{
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-li {
-  float: right;
+.dropdown-menu ul{
+  background-color: gray;
+  list-style: none;
+  width: 100%;
 }
 
-li a, .dropbtn {
-  display: inline-block;
+.dropdown-menu li{
+  float: left;
+  position: relative;
+  width: auto;
+}
+
+.dropdown-menu a{
+  background: #30a6e6;
+  color:white;
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 15px 55px;
   text-align: center;
   text-decoration: none;
-  background-color: #1b1b1b;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: white;
-  color:black;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;color:black}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 /*Formulaire*/
 form{
@@ -180,6 +168,7 @@ form{
   margin-top: 80px;
   font-size: 0 auto;
 }
+
 div .form-inscr label {
   display: inline-block;
   width: 90px;
@@ -206,6 +195,7 @@ label {
   display: inline-block;
   width: 90px;
 }
+/*style par défaut bouton formulaire*/
 .button-form{
   position: relative;
   margin: 10px;
@@ -217,19 +207,24 @@ label {
   overflow: hidden;
   cursor: pointer;
 }
+/*Survole bouton*/
 .button-form:hover{
   color:#000;
   background-color: white;
   transition: all 0.3s ease
 }
+
 /*Boutique*/
+/*Groupe de produits*/
 .produits{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  font-size: 20px;
 }
 
+/*produit par produit*/
 .produit{
   background: #ffffff;
   text-align: center;
@@ -242,30 +237,32 @@ label {
   justify-content: center;
   margin: 20px;
   border-radius: 12px;
+  font-size: 18px;
 }
-
-.produit .produit-titre, .produit .produit-prix{
-  font-size: 16px;
-  padding-bottom: 10px;
-}
-
-.produit:hover img{
-  scale:  1.1;
-}
-
 .produit:hover {
   box-shadow: 5px 15px 25px #eeeeee;
 }
 
+
+.produit a:hover{
+  transform: scale(1.1);
+}
+/*Définis l'espace et taille texte*/
+.produit-titre, .produit-prix{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+/*Images boutique base*/
 .produit img {
   height: 180px;
   margin: 1rem;
   transition: all 0.3s;
   border-radius: 6px;
 }
-
-.produit a:hover{
-  transform: scale(1.1);
+/*effet zoom sur images boutique*/
+.produit:hover img{
+  scale:  1.1;
 }
 
 .produit-btn{
@@ -278,7 +275,68 @@ label {
   cursor: pointer;
   border-radius: 6px;
 }
-.centre{
+
+/*.centre{
   align-items: center;
   align-content: center;
+}*/
+
+
+
+/*#wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+  background-color: #444444;
 }
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+.navbar li {
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #444444;
+}
+.navbar a {
+  padding: 18px 0;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar li:hover,
+a:hover {
+  background-color: #444444;
+}
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar li ul li {
+  background-color: #444444;
+}
+.navbar li ul li a {
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
+  border-top: 1px solid #c9d4d8;
+  border-bottom: 1px solid #444444;
+}
+.navbar li ul li a:hover {
+  background-color: #a3a1a1;
+}*/

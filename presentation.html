@@ -18,21 +18,29 @@
 
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            Décadrer
-        </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="shop.html">Boutique</a></li>
-            <li><a href="presentation.html" class="active">Qui sommes-nous ?</a></li>
-            <li><a href="form.html">Contact</a></li>
-            <li><a href="jeu.html">Python</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo">
+                Décadré            
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li class="dropdown"><a href="shop.html">Boutique</a>
+                    <div class="dropdown-content">
+                        <a href="damso.html" class="dropdown-btn">Damso</a>
+                        <a href="#" class="dropdown-btn">Nekfeu</a>
+                        <a href="#" class="dropdown-btn">Link 3</a>
+                    </div>
+                </li>
+                <li><a href="presentation.html" class="active">Qui sommes-nous ?</a></li>
+                <li><a href="form.html">Contact</a></li>
+                <li><a href="jeu.html">Python</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html> 
