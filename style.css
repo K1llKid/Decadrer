@@ -219,7 +219,7 @@ label {
   transform: scale(1.1);
 }
 /*Définis l'espace et taille texte*/
-.produit-titre, .produit-prix{
+.produit-titre, .produit-prix, .produit-descr{
   font-size: 18px;
   padding-bottom: 10px;
 }
@@ -247,7 +247,43 @@ label {
   cursor: pointer;
   border-radius: 6px;
 }
-/*effet zoom sur images boutique artiste*/
-.produit-btq:hover img{
-  scale:  6;
+
+#customAlert{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(255,255,255,0.75);
+}
+
+#box{
+  border-radius: 5px;
+  margin: 100px 100px 700px 700px;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 8px black;
+  background-color: white;
+}
+.heading{
+  color: white;
+  background-color: #383838;
+  padding: 10px;
+  font-size: larger;
+}
+.content{
+  margin-top: 15px;
+}
+#confirmbtn{
+  height: 25px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: #383838;
+  color:white;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 400px;
 }
