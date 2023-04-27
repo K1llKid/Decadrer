@@ -31,7 +31,6 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
-  display:flex;
 }
 
 /*Logo dans le nav*/
@@ -88,7 +87,7 @@ input[type="checkbox"]{
 
 @media (max-width: 920px) {
   nav .menu-btn i{
-    display: block;
+    display: flex;
   }
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
@@ -101,7 +100,7 @@ input[type="checkbox"]{
     height: 100vh;
     width: 100%;
     text-align: center;
-    display: block;
+    display: flex;
     transition: all 0.3s ease;
   }
   #click:checked ~ ul{
@@ -114,7 +113,7 @@ input[type="checkbox"]{
   nav ul li a{
     width: 100%;
     margin-left: -100%;
-    display: block;
+    display: flex;
     font-size: 20px;
   }
   #click:checked ~ ul li a{
@@ -134,7 +133,7 @@ form{
   background-color: #131313;
   color: white;
   margin: 0 auto;
-  width: 25%;
+  width: 400px;
   padding: 1em;
   margin-top: 80px;
   font-size: 0 auto;
@@ -147,7 +146,7 @@ div .form-inscr label {
 }
 input, textarea {
   box-sizing: border-box;
-  width: 400px;
+  width: 350px;
   text-align: left;
 }
 input{
@@ -166,6 +165,7 @@ label {
   display: inline-block;
   width: 90px;
 }
+
 /*style par défaut bouton formulaire*/
 .button-form{
   position: relative;
@@ -227,6 +227,7 @@ label {
 /*Images boutique base*/
 .produit img {
   height: 180px;
+  width: 180px;
   margin: 1rem;
   transition: all 0.3s;
   border-radius: 6px;
@@ -245,4 +246,8 @@ label {
   font-size: 16px;
   cursor: pointer;
   border-radius: 6px;
+}
+/*effet zoom sur images boutique artiste*/
+.produit-btq:hover img{
+  scale:  6;
 }
