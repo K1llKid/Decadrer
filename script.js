@@ -5,3 +5,4 @@ function clique() {
 function hidealert() {
 	customalert.style.display='none';
 }
+

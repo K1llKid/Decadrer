@@ -268,15 +268,18 @@ label {
   box-shadow: 2px 2px 8px black;
   background-color: white;
 }
+
 .heading{
   color: white;
   background-color: #383838;
   padding: 10px;
   font-size: larger;
 }
+
 .content{
   margin-top: 15px;
 }
+
 #confirmbtn{
   height: 25px;
   width: 80px;
@@ -286,4 +289,13 @@ label {
   cursor: pointer;
   margin-top: 20px;
   margin-left: 400px;
+}
+
+footer{
+  background-color: black;
+  padding: 25px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
