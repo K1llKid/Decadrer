@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>	
-	<title>Nekfeu</title>
-	<meta charset="utf-8">
+    <title>Nekfeu</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -31,108 +31,137 @@
             </ul>
         </nav>
     </header>
-
-    <div class="produits">
-        <div class="produit">
-            <img src="imgs/etoile-v.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Les Étoiles vagabondes</h4>
-                <p class="produit-descr">45 cm x 32 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
+    <div id="contents">
+        <div id="content">
+            <div class="produits">
+                <div class="produit">
+                    <img src="imgs/etoile-v.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Les Étoiles vagabondes</h4>
+                        <p class="produit-descr">45 cm x 32 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/etoile-v.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Les Étoiles vagabondes</h4>
+                        <p class="produit-descr">67.5 cm x 48 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/etoile-v.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Les Étoiles vagabondes</h4>
+                        <p class="produit-descr">90 cm x 64 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/etoile-v.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Les Étoiles vagabondes</h4>
-                <p class="produit-descr">67.5 cm x 48 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
+            <div class="produits">
+                <div class="produit">
+                    <img src="imgs/feu.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Feu</h4>
+                        <p class="produit-descr">45 cm x 32 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/feu.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Feu</h4>
+                        <p class="produit-descr">67.5 cm x 48 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/feu.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Feu</h4>
+                        <p class="produit-descr">90 cm x 64 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/etoile-v.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Les Étoiles vagabondes</h4>
-                <p class="produit-descr">90 cm x 64 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
+            <div class="produits">
+                <div class="produit">
+                    <img src="imgs/cyborg.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Cyborg</h4>
+                        <p class="produit-descr">45 cm x 32 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/cyborg.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Cyborg</h4>
+                        <p class="produit-descr">67.5 cm x 48 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+                <div class="produit">
+                    <img src="imgs/cyborg.jpg">
+                    <div class="produit-info">
+                        <h4 class="produit-titre">Cyborg</h4>
+                        <p class="produit-descr">90 cm x 64 cm</p>
+                        <a class="produit-btn" onclick="clique()">Commander</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div id="customAlert">
+                <div id="box">
+                    <div class="heading">
+                        Article ajouté
+                    </div>
+                    <div class="content">
+                        <p>Votre article a été ajouté au panier</p>
+                        <button type="button" id="confirmbtn" onclick="hidealert()">Ok</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="produits">
-        <div class="produit">
-            <img src="imgs/feu.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Feu</h4>
-                <p class="produit-descr">45 cm x 32 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/feu.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Feu</h4>
-                <p class="produit-descr">67.5 cm x 48 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/feu.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Feu</h4>
-                <p class="produit-descr">90 cm x 64 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
+    <footer id="footer">
+        <ul class="ul_footer">
+            <li>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-facebook-f"></i>
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-twitter"></i>
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">
+                    <i class="fab fa-youtube"></i>
+                    Youtube
+                </a>
+            </li>
+        </ul>
     </div>
-    <div class="produits">
-        <div class="produit">
-            <img src="imgs/cyborg.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Cyborg</h4>
-                <p class="produit-descr">45 cm x 32 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/cyborg.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Cyborg</h4>
-                <p class="produit-descr">67.5 cm x 48 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
-        <div class="produit">
-            <img src="imgs/cyborg.jpg">
-            <div class="produit-info">
-                <h4 class="produit-titre">Cyborg</h4>
-                <p class="produit-descr">90 cm x 64 cm</p>
-                <a class="produit-btn" onclick="clique()">Commander</a>
-
-            </div>
-        </div>
-    </div>
-    <div id="customAlert">
-        <div id="box">
-            <div class="heading">
-                Article ajouté
-            </div>
-            <div class="content">
-                <p>Votre article a été ajouté au panier</p>
-                <button type="button" id="confirmbtn" onclick="hidealert()">Ok</button>
-            </div>
-        </div>
-    </div>
-
-
-    <footer>
-        <p>© All Rights Reserved by Décadré & WeDesign 2023-2030</p>
-    </footer>
+    <p class="p_footer">Copyright @ 2023</p>
+</footer>
 </body>
 </html>
