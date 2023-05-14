@@ -291,6 +291,59 @@ label {
   margin-left: 400px;
 }
 
+/*Personnel*/
+/*Groupe de personnels*/
+.personnels{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*personnel par personnel*/
+.personnel{
+  background: #ffffff;
+  text-align: center;
+  width: 240px;
+  height: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 140px;
+  border-radius: 12px;
+  font-size: 18px;
+}
+.personnel:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.personnel a:hover{
+  transform: scale(1.1);
+}
+/*Définis l'espace et taille texte*/
+.personnel-titre, .personnel-descr{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+/*Images boutique base*/
+.personnel img {
+  height: 280px;
+  width: 200px;
+  margin: 1rem;
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+/*effet zoom sur images boutique*/
+.personnel:hover img{
+  scale:  1.1;
+}
+
+
+/*Footer*/
 #contents {
   position: relative;
   min-height: 100vh;
