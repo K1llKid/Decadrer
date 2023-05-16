@@ -85,7 +85,7 @@ input[type="checkbox"]{
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
   nav .menu-btn i{
     display: flex;
   }
@@ -305,7 +305,7 @@ label {
   background: #ffffff;
   text-align: center;
   width: 240px;
-  height: 400px;
+  height: 480px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -316,7 +316,7 @@ label {
   font-size: 18px;
 }
 .personnel:hover {
-  box-shadow: 5px 15px 25px #eeeeee;
+  box-shadow: 5px 15px 25px #CDCDCD;
 }
 
 .personnel a:hover{
@@ -330,8 +330,8 @@ label {
 
 /*Images boutique base*/
 .personnel img {
-  height: 280px;
-  width: 200px;
+  height: 55%;
+  width: 80%;
   margin: 1rem;
   transition: all 0.3s;
   border-radius: 6px;
