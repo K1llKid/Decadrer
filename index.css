@@ -1,0 +1,38 @@
+body {
+margin: 0;
+padding: 0;
+font-family: "Arial", sans-serif;
+}
+    
+.container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+padding: 250px;
+}
+    
+.article {
+background-color: #333;
+color: #fff;
+padding: 50px;
+text-align: center;
+}
+    
+.article h1 {
+font-family: "Helvetica Neue", Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+}
+    
+.article p {
+font-family: "Roboto", Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+.titre2{
+  font-size: 30px;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-weight: bold;
+  color:white;
+  margin-right: 400px;
+}
